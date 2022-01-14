@@ -1,0 +1,23 @@
+name: zb-cailapub
+
+entryPoint: main.sc
+
+botEngine: v2
+language: ru
+
+tests:
+  include:
+    - test.xml
+
+sts:
+    noMatchThreshold: 0.2
+
+caila:
+    noMatchThreshold: 0.2
+injector:
+    slotfilling:
+    maxSlotRetries: 2
+    stopOnAnyIntent: false
+    stopOnAnyIntentThreshold: 0.2
+    
+        
